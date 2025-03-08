@@ -16,7 +16,7 @@
 
 // TemperatureSensor* temp_sensor = nullptr;
 MultiSensor* multi_sensor = nullptr;
-LED onboard_led(GPIO_NUM_8, true);
+LED onboard_led(LED_PIN, true);
 
 void connect_to_wifi(const char* ssid, const char* password) {
 // Set WiFi mode to station (client) mode

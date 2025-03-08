@@ -24,11 +24,9 @@ public:
 
   void turn_on() {
     digitalWrite(this->pin, this->on);
-    Serial.println("Turning LED ON");
   }
 
   void turn_off() {
     digitalWrite(this->pin, this->off);
-    Serial.println("Turning LED OFF");
   }
 };
