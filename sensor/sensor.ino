@@ -9,10 +9,10 @@
 #include "led.h"
 #include "secrets.h"
 
-#define SDA_PIN 8
-#define SCK_PIN 9
+#define LED_PIN 8 // Led Pin
+#define SDA_PIN 8 // I2C Data Pin
+#define SCK_PIN 9 // I2C Clock Pin
 #define SCD41_ADDRESS 0x62  // I2C address of the SCD41 sensor
-#define TEMP_DATA_PIN 0
 
 // TemperatureSensor* temp_sensor = nullptr;
 MultiSensor* multi_sensor = nullptr;
